@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Segredo do 100x</title>
+
+<style>
+body {
+  margin: 0;
+  background: #120016;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #ed9710;
+  font-weight: bold;
+}
+
+.aviator {
+  color: red;
+  font-weight: bold;
+}
+
+.video iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn-green {
+  background: #00ff88;
+  color: #000;
+}
+
+.btn-red {
+  background: #ff0033;
+  color: #fff;
+}
+
+/* botão riscado */
+.riscado {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* ALERTA HTML */
+.alerta {
+  display: none;
+  background: #1e1e1e;
+  border: 2px solid #ff0033;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.alerta strong {
+  color: #ff0033;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img src="https://segredodo100x.com/wp-content/uploads/2025/08/ChatGPT-Image-16_08_2025-00_43_42-1-1.png">
+
+<h1>
+<span class="highlight">FAÇA DINHEIRO TODOS OS DIAS</span><br>
+com o <span class="highlight">SISTEMA DE CASHOUT INFINITO</span>.<br>
+Pare de perder dinheiro no <span class="aviator">AVIATOR</span>
+</h1>
+
+<div class="video">
+<iframe src="https://player.vimeo.com/video/1156198078?autoplay=0&loop=1" allowfullscreen></iframe>
+</div>
+
+<!-- BOTÃO VERDE -->
+<a class="btn btn-green" href="https://tracking.olabet.co.mz/C.ashx?btag=a_87b_7c_&affid=86&siteid=87&adid=7&c=" target="_blank">
+PLATAFORMA DO SISTEMA
+</a>
+
+<br>
+
+<!-- BOTÃO VERMELHO -->
+<a id="btnRed" class="btn btn-red" href="#">
+ADQUIRIR O SISTEMA
+</a>
+
+<!-- ALERTA HTML -->
+<div id="alerta" class="alerta">
+<strong>⚠️ Atenção:</strong><br><br>
+Para receber o sistema:<br><br>
+1. Clique em <strong>PLATAFORMA DO SISTEMA</strong><br>
+2. Crie sua conta<br>
+3. Faça um depósito<br><br>
+Depois disso você terá acesso completo.
+</div>
+
+<p style="margin-top:20px;">
+<strong>Você não precisa pagar nada, o sistema é 100% seu!</strong>
+</p>
+
+</div>
+
+<script>
+document.getElementById("btnRed").onclick = function(e) {
+  e.preventDefault();
+
+  // MOSTRA ALERTA HTML
+  document.getElementById("alerta").style.display = "block";
+
+  // RISCA BOTÃO
+  this.classList.add("riscado");
+};
+</script>
+
+</body>
+</html>
